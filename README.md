@@ -1,2 +1,2 @@
 # NeRI
-#The relevant code will be reviewed when the paper is accepted.
+The article can be found at (https://doi.org/10.1109/TGRS.2025.3633281)
