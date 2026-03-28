@@ -33,12 +33,10 @@ parser.add_argument("--model_names", default=['INRNET'], type=list,
 parser.add_argument("--dataset_names", default=['NUAA-SIRST'], type=list,  # 数据集名称
                     help="dataset_name: 'NUAA-SIRST', 'NUDT-SIRST', 'IRSTD-1K', 'SIRST3', 'NUDT-SIRST-Sea', 'Image'")
 
-# parser.add_argument("--pth_dirs", default=['/home/x3090/work/dsw/INR/ablation/light-version/NUAA/INRNET_550_best.pth.tar'], type=list) #nuaa 700
-# parser.add_argument("--pth_dirs", default=['/home/x3090/work/dsw/INR/ablation/NUAA5_7/INRNET_940_best.pth.tar'], type=list) #nuaa 700
-parser.add_argument("--pth_dirs", default=['/home/x3090/work/dsw//INR/log/NUAA-SIRST/best/INRNET_660_best.pth.tar'], type=list) #nuaa 700
+parser.add_argument("--pth_dirs", default=[''], type=list) #nuaa 700
 
 
-#  nuaa 660  nudt 715 1K  710
+
 
 parser.add_argument("--dataset_dir", default='/home/x3090/work/dsw/INR/Dataset', type=str,
                     help="train_dataset_dir")
